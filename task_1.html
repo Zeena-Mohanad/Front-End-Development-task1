@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Good Vibes Form</title>
+    </head>
+    <body>
+        <h1>Good Vibes Form</h1>
+
+        <p>Tell us something positive that happend to you today.</p>
+        
+        <form action=" " method="POST">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" placeholder="Enter your name">
+            <br><br>
+            <label for="email">Email</label>
+            <br>
+            <input type="text" id="email" placeholder="Enter your email address">
+            <br><br>
+            <label for="number">On a scale of 1-10, how good was it?</label>
+            <br>
+            <input type="number" min="0" max="10" id="number" placeholder="Enter a number between 1 and 10">
+            <br><br>
+            <label for="place">Wher did it happen?</label>
+            <br>
+            <select name="place" id="place">
+                <option value="At home">At home</option>
+                <option value="At work">At work</option>
+                <option value="other">other</option>
+            </select>
+            <br><br>
+            <label for="time">At what time of day did it happen?</label>
+            <br>
+            <input type="radio" name="time" value="Morning"> Morning <br>
+            <input type="radio" name="time" value="Afternoon"> Afternoon <br>
+            <input type="radio" name="time" value="Evening"> Evening <br>
+            <br>
+            <label for="emotion">What emotions did you experience?
+               <br> (Select all that apply)</label>
+            <br><br>
+            <input type="checkbox" name="Excited" id="emotion"> Excited <br>
+            <input type="checkbox" name="Humbled" id="emotion"> Humbled <br>
+            <input type="checkbox" name="Elated" id="emotion"> Elated <br>
+            <input type="checkbox" name="Loved" id="emotion"> Loved <br>
+            <input type="checkbox" name="Enthusiastic" id="emotion"> Enthusiastic <br>
+            <br>
+            <label for="positive experience">Please describe your positive experience</label>
+            <br>
+            <textarea name="positive experience" id="positive experience" placeholder="Enter your experience"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
